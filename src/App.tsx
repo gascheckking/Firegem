@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 
 
+
 // --- CONFIG & CONSTANTS ---
 const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : null;
 const appId = typeof __app_id !== 'undefined' ? __app_id : 'spawn-os-v4';
