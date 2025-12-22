@@ -6,8 +6,9 @@ import {
   Home, ShoppingBag, Gift, Layers, MessageSquare, Settings, 
   Zap, Activity, Users, Shield, Cpu, Terminal, 
   ChevronRight, Play, Box, Globe, Wallet, Bell, Search,
-  Trophy, Flame, Sparkles
+  Trophy, Flame, Sparkles, Bot, Diamond // <-- Lade till Bot och Diamond här
 } from 'lucide-react';
+
 
 // --- CONFIG & CONSTANTS ---
 const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : null;
